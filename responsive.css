@@ -1,0 +1,123 @@
+/* this responsive section for large devices */
+
+
+@media (min-width:900px) and (max-width:1300px) {
+    div.container-1 > img.introduction-food{
+        margin: -200px -3vw 0px 0px;
+    	width: 34%;
+    }
+    div.intro{
+        width:49vw;
+    }
+}
+
+
+/* this responsive section for tablet and phone devices  */
+@media screen and (max-width:899px){
+	div.nav-links,.delivery,.offer-of-the-week{
+		display:none;
+	}
+	div.delivery{
+		display:none;
+	}
+	div.offer-of-the-week{
+		left: 24%;
+		top: 230px;
+	}
+	div.offer-of-the-week > p.slogan {
+		margin:0 10%;
+	}
+	div.offer-of-the-week > h1 {
+    margin-top: 5%;
+    font-size: 80px;
+    text-align: center
+	}
+	h2.xyz{
+		font-size: 40px;
+		text-align: center;
+		margin: 0 0 0 0;
+	}
+	div.pic-of-the-offer {
+		width: 50%;
+		margin: 0 auto
+	}
+	div.pic-of-the-offer > .burger {
+		top:0;
+	}
+	div.menu-logo{
+		display:block;
+	}
+	.title-of-speciality {
+		font-size: 12px;
+		position: absolute;
+		top: 30px;
+		left: 35px;
+	}
+	.container-1 {
+		height:600px;
+	}
+	div.intro {
+		width: 100%;
+	}
+	.introduction-food{
+		width: 70%;
+    	margin: 50px 5vw 0 0;
+	}
+	img.image2 {
+		display:none;
+	}
+	img.image1 {
+		width: 6rem;
+		left: 1rem;
+	}
+	img.image3{
+		width:7rem;
+		top:60%;
+		display: none;
+	}
+	.fname, .date, .number {
+		margin-left: 0;
+		}
+	.input{
+		height: 60px;
+		width: 70%;
+		margin:10px auto;	
+	}
+	form.booking-form{
+		margin: 20px 27%;
+	}
+	div.location-details{
+		width:100%;
+	}
+}
+
+@media (max-width:500px){
+
+	div.offer-of-the-week {
+    	top: 150px;
+	}
+	div.flex-container{
+		flex-wrap: wrap;
+	}
+	.img1{
+		width:85vw;
+	}
+	.img2{
+		width:91vw;
+	}
+	.container-1{
+		padding: 62px 10px 0px 10px;
+	}
+	img.image1 {
+		display: none;
+	}
+	form.booking-form {
+		margin: 20px 25%;
+	}
+	.introduction-food {
+		margin: 50px 11vw 0 0;
+	}
+	.footer-input{
+		margin:5px -34px;
+	}
+}
